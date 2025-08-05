@@ -56,6 +56,14 @@ eggrolls-FREQ60K-MWLD
 
 ---
 
+## ⚛️ About Atomic Cards
+
+Cards are sorted according to the frequency ranking of words, from most frequent to least frequent. However, each meaning of a word is treated as an individual "atomic" card, meaning that every single definition is presented separately.
+
+This approach means that even less common definitions of frequently used words may appear early in your studies due to the overall frequency of the word itself. If you encounter definitions you prefer not to study, feel free to mark them as **Easy**, or manually **suspend** or **delete** them.
+
+---
+
 ## 🛠 How to Use
 
 * Download and install [Anki](https://apps.ankiweb.net/).
