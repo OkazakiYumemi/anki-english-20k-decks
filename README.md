@@ -1,4 +1,4 @@
-# eggrolls-FREQ60K-MWLD (Anki Deck)
+# 【egg rolls】60k English Words＋Audio＋Examples
 
 **An extensive English vocabulary deck featuring 60,000 high-frequency English words. Each word is enriched with definitions, example sentences, and pronunciation audio from Merriam-Webster's Learner's Dictionary.**
 
