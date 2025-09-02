@@ -2,8 +2,10 @@
 .DS_Store
 *.py
 *.proto
+*.mp3
 /anki
 requirements.txt
 *.apkg
 /__pycache__
 /mwld
+/*/.backup
