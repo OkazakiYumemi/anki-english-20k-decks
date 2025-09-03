@@ -26,14 +26,7 @@
     <!-- Pronunciation and Audio -->
     <section class="pronunciation-audio">
       <span class="pronunciation">/{{IPA}}/</span>
-      {{#Audio}}
-      <span class="audio-button" onclick="new Audio('{{Audio}}').play();">
-        <svg width="100%" height="100%" viewBox="0 0 24 24">
-          <path
-            d="M5.25 9v6h4l5 5V4L9.25 9H5.25z M18.75 12c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z" />
-        </svg>
-      </span>
-      {{/Audio}}
+      {{#Audio}}{{Audio}}{{/Audio}}
     </section>
 
     <hr class="divider">
@@ -162,6 +155,13 @@
       } else {
         applyCocaExampleCleaning();
       }
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var replayButtons = document.querySelectorAll('.replay-button');
+        replayButtons.forEach(function (button) {
+          button.innerHTML = ''; // Deletes the original play button
+        });
+      });
     </script>
 
   </article>
@@ -199,14 +199,7 @@
     <!-- Pronunciation and Audio -->
     <section class="pronunciation-audio">
       <span class="pronunciation">/{{IPA}}/</span>
-      {{#Audio}}
-      <span class="audio-button" onclick="new Audio('{{Audio}}').play();">
-        <svg width="100%" height="100%" viewBox="0 0 24 24">
-          <path
-            d="M5.25 9v6h4l5 5V4L9.25 9H5.25z M18.75 12c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z" />
-        </svg>
-      </span>
-      {{/Audio}}
+      {{#Audio}}{{Audio}}{{/Audio}}
 
 
       <button id="translateBtn" class="translate-button" title="Click to translate">
@@ -474,6 +467,13 @@
       });
       observer.observe(document.body, { childList: true, subtree: true });
     }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var replayButtons = document.querySelectorAll('.replay-button');
+      replayButtons.forEach(function (button) {
+        button.innerHTML = ''; // Deletes the original play button
+      });
+    });
   </script>
 
 </body>
