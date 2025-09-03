@@ -1,22 +1,18 @@
-# 【egg rolls】60k English Words＋Audio＋Examples
+# OKZK-MWLD20K
 
-**An extensive English vocabulary deck featuring 60,000 high-frequency English words. Each word is enriched with definitions, example sentences, and pronunciation audio from Merriam-Webster's Learner's Dictionary.**
-
-[👉 Download from AnkiWeb](https://ankiweb.net/shared/info/365554322) | [👉 View on GitHub](https://github.com/5mdld/anki-mwld-freq60k)
+**An extensive English vocabulary deck featuring 20,000 high-frequency English words. Each word is enriched with definitions, example sentences, and pronunciation audio from Merriam-Webster's Learner's Dictionary.**
 
 ---
 
 ## 📌 Overview
 
-* **Vocabulary**: 60,000 high-frequency English words.
+* **Vocabulary**: 20,000 high-frequency English words.
 
 * **Dictionary & Audio**: [Merriam-Webster's Learner's Dictionary](https://dictionaryapi.com/) (with native audio pronunciations)
 
 * **Card Structure**: Fully atomic—each card corresponds to exactly one definition.
 
-* **Total Cards**: \~66,000
-
-* **Organization**: Words divided into 20 frequency-based sub-decks, from most frequent (01k) to least frequent (60k).
+* **Organization**: Words divided into 16 frequency-based sub-decks, from most frequent (01k) to least frequent (20k).
 
 * **Exclusions**: Words or definitions not available in Merriam-Webster's Learner's Dictionary have been omitted to ensure accuracy and consistency.
 
@@ -44,47 +40,13 @@
 ## 📁 Deck Structure
 
 ```
-eggrolls-FREQ60K-MWLD
+OKZK-MWLD20K
  ├── 01k (most frequent words)
  ├── 02k
  ├── 03k
  ...
- ├── 60k (least frequent words)
+ ├── 20k (least frequent words)
 ```
-
-*Study efficiently by prioritizing more common vocabulary first.*
-
----
-
-## ⚛️ About Atomic Cards
-
-Cards are sorted according to the frequency ranking of words, from most frequent to least frequent. However, each meaning of a word is treated as an individual "atomic" card, meaning that every single definition is presented separately.
-
-This approach means that even less common definitions of frequently used words may appear early in your studies due to the overall frequency of the word itself. If you encounter definitions you prefer not to study, feel free to mark them as **Easy**, or manually **suspend** or **delete** them.
-
----
-
-## 🛠 How to Use
-
-* Download and install [Anki](https://apps.ankiweb.net/).
-
-* Import the deck `.apkg` file.
-
-* Start reviewing from the highest frequency sub-deck for maximum efficiency.
-
-* If you prefer translations in languages other than Simplified Chinese, you can edit the `ExampleTR*` fields accordingly.
-
----
-
-## 📜 Licensing & Third-Party Content Notice
-
-**The deck content is based on Merriam-Webster's Learner's Dictionary and audio resources.**
-
-* Dictionary data, definitions, and audio pronunciations: © Merriam-Webster, Incorporated. All rights reserved.
-
-* Merriam-Webster content is **NOT** included under this project's open-source license and must comply with [Merriam-Webster's Dictionary API Terms of Service](https://dictionaryapi.com/info/terms-of-service) and [Brand Guidelines](https://dictionaryapi.com/info/branding-guidelines).
-
-Your use must remain **non-commercial**, and you must maintain the Merriam-Webster logo visibly in any derivative use.
 
 ---
 
@@ -92,13 +54,10 @@ Your use must remain **non-commercial**, and you must maintain the Merriam-Webst
 
 Special thanks to:
 
-* [Merriam-Webster's Learner's Dictionary](https://dictionaryapi.com/)
-
 * Telegram user `@KarasawaKoko` for providing the TTS audio server.
 
 * [Ecattea/COCA-English-Anki-Deck](https://github.com/Ecattea/COCA-English-Anki-Deck) for structural and workflow inspiration.
 
+* [5mdld/anki-english-60k-decks](https://github.com/5mdld/anki-english-60k-decks) for base vocabulary and audio resources. I used the first 20K words as a foundation for this deck, and fixed some audio and pronunciation issues.
+
 ---
-
-**Happy learning! 📚**
-
